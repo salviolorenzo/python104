@@ -1,0 +1,9 @@
+num = 1
+multi = 1
+while num <= 10:
+    multi = 1
+    while multi <= 10:
+        equals = num*multi
+        print('%d X %d = %d' % (num, multi, equals))
+        multi+=1
+    num+=1
